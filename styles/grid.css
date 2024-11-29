@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: bisque;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  gap: 20px;
+}
+
+.container-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.first {
+  justify-self: start;
+}
+
+.second {
+  justify-self: end;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.third {
+  justify-self: start;
+}
+
+.box-container_two {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.container-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.box-container_three_first {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  justify-content: start;
+}
+
+.box-container_three_second {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  justify-content: end;
+}
+
+.twelfth,
+.thirteenth,
+.fifteenth,
+.sixteenth {
+  height: 40px;
+}
+
+.box-container_four {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.eleventh {
+  justify-self: end;
+}
+
+.block-container_four {
+  display: grid;
+  gap: 20px;
+  justify-content: end;
+}
+
+.box-container_five {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.block-container_five {
+  display: grid;
+  gap: 20px;
+}
