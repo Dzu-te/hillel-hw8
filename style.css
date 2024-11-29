@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: bisque;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+
+
+.first {
+  float: left;
+  background-color: blueviolet;
+}
+
+.second {
+  float: right;
+  background-color: aquamarine;
+  margin-right: 0;
+}
+
+.third {
+  background-color: brown;
+  float: right;
+  margin-right: 0;
+}
+
+.fourth {
+  background-color: cadetblue;
+  float: right;
+
+}
+
+.fifth {
+  background-color: chocolate;
+  float: right;
+}
+
+.sixth {
+  background-color: darkblue;
+  float: left;
+}
+
+.seventh {
+  background-color: darkgoldenrod;
+  float: left;
+}
+
+.eighth {
+  background-color: darkkhaki;
+  float: left;
+}
+
+.ninth {
+  background-color: darkmagenta;
+  float: right;
+  margin-right: 0;
+}
+
+.tenth {
+  background-color: darkolivegreen;
+  float: right;
+}
+
+.container-block {
+  width: 200px;
+  float: right;
+}
+
+.eleventh {
+  background-color: darkorchid;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.twelfth {
+  background-color: darkred;
+  height: 40px;
+}
+
+.thirteenth {
+  background-color: darksalmon;
+  float: right;
+}
+
+.fourteenth {
+  background-color: darkseagreen;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.fifteenth {
+  background-color: darkslateblue;
+  height: 40px;
+}
+
+.sixteenth {
+  background-color: darkslategray;
+  float: left;
+
+}
+
+.container-block-one {
+  width: 200px;
+  float: right;
+}
+
+.anything-box {
+  width: 420px;
+  margin: 0 auto;
+}
+
+
+/* .eleventh::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
