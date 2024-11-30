@@ -26,12 +26,11 @@
 .container-two {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
-.box-container_two {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
+.third {
+  margin-right: auto;
 }
 
 .container-three {
@@ -39,7 +38,17 @@
   justify-content: space-between;
 }
 
-.box-container_three_first {
+.eighth {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.ninth {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+/* .box-container_three_first {
   display: flex;
   gap: 20px;
 }
@@ -47,7 +56,7 @@
 .box-container_three_second {
   display: flex;
   gap: 20px;
-}
+} */
 
 .box-container_four {
   display: flex;
