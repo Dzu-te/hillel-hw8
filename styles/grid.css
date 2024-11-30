@@ -34,38 +34,28 @@
 
 .container-two {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 200px 1fr 200px 200px 200px;
   align-items: center;
-}
-
-.third {
-  justify-self: start;
-}
-
-.box-container_two {
-  display: grid;
-  grid-auto-flow: column;
   gap: 20px;
+}
+
+.fourth {
+  grid-column: 3;
 }
 
 .container-three {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
+  grid-template-columns: 200px 200px 1fr 200px 200px;
+  align-items: center;
+  gap: 20px;
 }
 
-.box-container_three_first {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 20px;
-  justify-content: start;
+.eighth {
+  grid-column: 2;
 }
 
-.box-container_three_second {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 20px;
-  justify-content: end;
+.ninth {
+  grid-column: 4;
 }
 
 .twelfth,
